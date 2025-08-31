@@ -4,7 +4,7 @@ echo "Starting the count..."
 
 START_TIME=$(date +%s)
 
-TARGET=1000000000000
+TARGET=1000000
 
 echo "Counting from 1 to $TARGET..."
 for ((i=1; i<=$TARGET; i++))
